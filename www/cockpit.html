@@ -1,0 +1,63 @@
+<script src="/www/js/cockpit.js"></script>
+<link rel="stylesheet" href="/www/styles/site.css" />
+
+<div class="col-sm-2" style="background:#2d90ec; height:840px">
+    <div style="background: black; margin-right:0px; color:white">Aarau Kreuzplatz</div>
+    <div class="cityTab">Geneva</div>
+    <div class="cityTab">Basel-Grosspeter</div>
+    <div class="cityTab">Basel-Wallstrasse</div>
+</div>
+
+<div class="col-sm-8" style="background: black; height:840px">
+
+    <div style="background:#444; margin-left:0px; margin-top:10px; height:250px">
+        <div class="cockpitTabHeader">Temperature</div>
+        <div class="col-md-3">
+            <div class="cockpitGraph">Graph</div>
+        </div>
+        <div class="col-md-6">
+            <div class="cockpitDasch">Dasch</div>
+        </div>
+    </div>
+
+    <div style="background:#444; margin-left:0px; margin-top:10px; height:250px">
+        <div class="cockpitTabHeader">Pressure</div>
+        <div class="col-md-2">
+            <div class="cockpitDasch ">Dasch </div>
+        </div>
+        <div class="col-md-7">
+            <div class="cockpitGraph">Graph</div>
+        </div>
+        <div class="col-md-3">
+            <div class="cockpiTime">Connection Time</div>
+            <div class="cockpiTime">Message Number</div>
+        </div>
+    </div>
+
+    <div style="background:#444; margin-left:0px; margin-top:10px; height:250px">
+        <div class="cockpitTabHeader">Humidity</div>
+        <div class="col-md-3">
+            <div class="cockpitGraph" id="humidityGraph">Graph</div>
+        </div>
+        <div class="col-md-6">
+            <div class="cockpitDasch" id="humidityGauge">Dasch</div>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-2" style="background:black; height:840px">
+
+    <div style="background:#222; margin-left:0px; margin-top:10px; height:250px">
+        <div class="cockpitTabHeader">Map</div>
+
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Aarau%20Kreuzplatz&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div>    
+        </div>
+    </div>
+
+    <div style="background:#222; margin-left:0px; margin-top:10px; height:550px">
+    <div class="cockpitTabHeader">Warnings</div>
+</div>
+
+</div>

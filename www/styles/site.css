@@ -1,0 +1,242 @@
+﻿body {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.navigation {
+    background-image: linear-gradient(#193e84, #051861);
+}
+
+.navbrand {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    display: block;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navpage {
+    color: white;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+/*.body-content {
+    padding-left: 0px;
+    padding-right: 0px;
+}*/
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* buttons and links extension to use brackets: [ click me ] */
+.btn-bracketed::before {
+    display: inline-block;
+    content: "[";
+    padding-right: 0.5em;
+}
+
+.btn-bracketed::after {
+    display: inline-block;
+    content: "]";
+    padding-left: 0.5em;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+/*Custom Forge Toolbar*/
+.toolbar-button-Detector {
+    background-image: url("/www/images/detector.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.toolbar-button-Mark {
+    margin-top: 40px;
+    background-image: url("/www/images/label.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.toolbar-button-Meter {
+    margin-top: 40px;
+    background-image: url("/www/images/meter.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.toolbar-button-Attributes {
+    margin-top: 40px;
+    background-image: url("/www/images/attributes.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.toolbar-button-Chart {
+    margin-top: 40px;
+    background-image: url("/www/images/chart.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.toolbar-button-Map {
+    margin-top: 40px;
+    background-image: url("/www/images/map.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.toolbar-button-Isolate {
+    margin-top: 40px;
+    background-image: url("/www/images/building.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.toolbar-button-Views {
+    margin-top: 40px;
+    background-image: url("/www/images/view.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.toolbar-vertical-group {
+    margin: 20%;
+    width: 50px;
+    height: auto;
+}
+
+.cockpitGraph {
+    background: white;
+    height: 190px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.cockpitDasch {
+    background: white;
+    height: 190px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.cockpiTime {
+    background: white;
+    height: 85px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.cityTab {
+    background: black;
+    margin-right: -20px;
+    color: white
+}
+
+.cockpitTab {
+    background: #444;
+    margin-left: 0px;
+    margin-top: 10px;
+    height: 250px
+}
+
+.cockpitTabHeader {
+    height: 25px;
+    background-image: linear-gradient(#193e84, #051861);
+    color: white
+}
+
+.mapouter {
+    text-align: right;
+    height: 220px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}
+
+#divToolbar {
+    background: red;
+    top: 580px;
+    left: 94%;
+    z-index: 10000;
+    position: absolute;
+}
+
+.th {
+    color: white;
+}
+
+#clashresultstable {
+    color: white;
+}
+
+
+#label {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    border: 2px solid #ccc;
+    background-color: #404040;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#label img {
+    width: 200px;
+}
+
+#menu {
+    margin: 30px;
+    padding: 0px 25px 5px 0px;
+    position: absolute;
+    background-color: #404040;
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px #707070;
+    z-index: 2;
+}
+
+#About {
+    margin: 100px;
+}
+
+#Contacts {
+    margin: 100px;
+}

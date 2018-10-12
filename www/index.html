@@ -1,0 +1,60 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=no" />
+<meta charset="utf-8" />
+
+<link rel="icon" href="/www/favicon.ico" type="image/gif" sizes="16x16">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="/www/styles/site.css" />
+
+<script src="https://developer.api.autodesk.com/viewingservice/v1/viewers/viewer3D.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+<title>Swisscom</title>
+</head>
+
+<body>
+    <!--<nav class="navbar navbar-inverse navbar-fixed-top/"-->
+    <nav class="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbrand">SwisscomIoT</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a class="navpage" onclick='renderPartial("/www/cockpit.html")'>Cockpit</a></li>
+                    <li><a class="navpage" onclick='renderPartial("/www/map.html")'>Map</a></li>
+                    <li><a class="navpage" onclick='renderPartial("/www/viewer.html")'>Viewer</a></li>
+                    <li><a class="navpage" onclick='renderPartial("/www/about.html")'>About</a></li>
+                    <li><a class="navpage" onclick='renderPartial("/www/contact.html")'>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="body"></div>
+</div>
+footer>
+<p>&copy; 2018 - SwisscomIoT</p>
+</footer>
+</body>
+<
+
+</html>
+<script type="text/javascript">
+    //var urn = "";
+    //showModel(urn);
+    function renderPartial(page) {
+        $(document).ready(function () {
+            $("#body").load(page);
+        })
+    }
+</script>
